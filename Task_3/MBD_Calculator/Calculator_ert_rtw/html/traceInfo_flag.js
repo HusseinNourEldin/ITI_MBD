@@ -1,0 +1,55 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["Calculator.c:37c25"]=1;
+    this.traceFlag["Calculator.c:40c28"]=1;
+    this.traceFlag["Calculator.c:43c32"]=1;
+    this.traceFlag["Calculator.c:48c41"]=1;
+    this.traceFlag["Calculator.c:51c30"]=1;
+    this.traceFlag["Calculator.c:56c26"]=1;
+    this.traceFlag["Calculator.c:61c31"]=1;
+    this.traceFlag["Calculator.c:64c24"]=1;
+    this.traceFlag["Calculator.c:77c20"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["Calculator.c:37"]=1;
+    this.lineTraceFlag["Calculator.c:40"]=1;
+    this.lineTraceFlag["Calculator.c:43"]=1;
+    this.lineTraceFlag["Calculator.c:48"]=1;
+    this.lineTraceFlag["Calculator.c:51"]=1;
+    this.lineTraceFlag["Calculator.c:56"]=1;
+    this.lineTraceFlag["Calculator.c:61"]=1;
+    this.lineTraceFlag["Calculator.c:64"]=1;
+    this.lineTraceFlag["Calculator.c:76"]=1;
+    this.lineTraceFlag["Calculator.c:77"]=1;
+    this.lineTraceFlag["Calculator.c:82"]=1;
+    this.lineTraceFlag["Calculator.c:85"]=1;
+    this.lineTraceFlag["Calculator.c:88"]=1;
+    this.lineTraceFlag["Calculator.c:91"]=1;
+    this.lineTraceFlag["Calculator.c:94"]=1;
+    this.lineTraceFlag["Calculator.c:97"]=1;
+    this.lineTraceFlag["Calculator.c:100"]=1;
+    this.lineTraceFlag["Calculator.c:103"]=1;
+    this.lineTraceFlag["Calculator.h:38"]=1;
+    this.lineTraceFlag["Calculator.h:39"]=1;
+    this.lineTraceFlag["Calculator.h:40"]=1;
+    this.lineTraceFlag["Calculator.h:41"]=1;
+    this.lineTraceFlag["Calculator.h:42"]=1;
+    this.lineTraceFlag["Calculator.h:43"]=1;
+    this.lineTraceFlag["Calculator.h:44"]=1;
+    this.lineTraceFlag["Calculator.h:45"]=1;
+    this.lineTraceFlag["Calculator.h:50"]=1;
+    this.lineTraceFlag["Calculator.h:55"]=1;
+    this.lineTraceFlag["Calculator.h:56"]=1;
+    this.lineTraceFlag["Calculator.h:57"]=1;
+    this.lineTraceFlag["Calculator.h:62"]=1;
+    this.lineTraceFlag["Calculator.h:63"]=1;
+    this.lineTraceFlag["Calculator.h:64"]=1;
+    this.lineTraceFlag["Calculator.h:65"]=1;
+    this.lineTraceFlag["Calculator.h:66"]=1;
+    this.lineTraceFlag["Calculator.h:67"]=1;
+    this.lineTraceFlag["Calculator.h:68"]=1;
+    this.lineTraceFlag["Calculator.h:69"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
